@@ -87,11 +87,13 @@ const About = () => {
     };
 
     return (
-        <>
+        <div className="container">
             <Header handleGenreChange={handleGenreChange} />
-            <Books genre={genre} handleBasketAddition={handleBasketAddition} />
-            <Basket basket={basket} handleBasketRemoval={handleBasketRemoval} />
-        </>
+            <div className="content">
+                <Books genre={genre} handleBasketAddition={handleBasketAddition} />
+                <Basket basket={basket} handleBasketRemoval={handleBasketRemoval} />
+            </div>
+        </div>
     );
 };
 
