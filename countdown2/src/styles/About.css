@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.books{
+    margin-top: 40px;
+    padding: 20px;
+    position: relative;
+}
+
+.basket{
+ margin-left : 20px;
+}
